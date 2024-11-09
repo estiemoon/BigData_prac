@@ -24,7 +24,6 @@ def comput(user):
     else:
         result = "컴퓨터가 이겼습니다! 😢"
 
-    print(user,com)
     st.text(result)
     
     return
