@@ -1,0 +1,12 @@
+*.idea*
+*.DS_Store*
+*postgres-data*
+/data
+/Exercises/Exercise-1/downloads
+/Exercises/Exercise-4/data
+/Exercises/Exercise-5/data
+/Exercises/Exercise-6/data
+/Exercises/Exercise-7/data
+/Exercises/Exercise-8/data
+/Exercises/Exercise-9/data
+/Exercises/Exercise-10/data
