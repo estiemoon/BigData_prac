@@ -3,7 +3,6 @@ import json
 import csv
 import pandas as pd
 
-
 def flatten(data,key,curr_row):
     if type(data) == dict:
         for obj in data:
@@ -19,12 +18,9 @@ def json_to_csv(json_path):
         content = file.read()
         
         if not content.strip():
-            print("파일이 비어있습니다")
+            print("empty")
         else:
-            read_file = json.loads(content)
-            # df = pd.json_normalize(read_file)
-            # df.to_csv(f"./results/{file_name}")
-                
+            read_file = json.loads(content)                
             with open(f"results.csv", "a") as ouput_file, open(f"results.csv", "r") as check_file:
                 
                 f = csv.writer(ouput_file)
